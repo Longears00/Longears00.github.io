@@ -370,7 +370,7 @@
                 
               
 
-              <time title="Created: 2018-09-07 13:54:59 / Modified: 19:15:01" itemprop="dateCreated datePublished" datetime="2018-09-07T13:54:59+08:00">2018-09-07</time>
+              <time title="Created: 2018-09-07 13:54:59 / Modified: 19:17:31" itemprop="dateCreated datePublished" datetime="2018-09-07T13:54:59+08:00">2018-09-07</time>
             
 
             
@@ -427,8 +427,7 @@
 
       
         
-          
-            <h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>什么是 Hexo？<br>Hexo 是一个快速、简洁且高效的博客框架。</p>
+          <h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>什么是 Hexo？<br>Hexo 是一个快速、简洁且高效的博客框架。</p>
 <blockquote>
 <p>hexo官网链接 <a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">hexo</a></p>
 </blockquote>
@@ -441,18 +440,13 @@
 </ol>
 <p>安装官网上的初始化命令就可以简单的快速搭建一个hexo blog.运行 hexo server 可以在本地 localhost:4000 上进行预览</p>
 <p>ps：将运行命令加入package.json<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&quot;scripts&quot;: &#123;</span><br><span class="line">   &quot;dev&quot;: &quot;hexo server&quot;</span><br><span class="line"> &#125;,</span><br></pre></td></tr></table></figure></p>
-<h4 id="发布hexo项目到git"><a href="#发布hexo项目到git" class="headerlink" title="发布hexo项目到git"></a>发布hexo项目到git</h4><ol>
-<li>在git上创建新的 repository 命名格式：{your-git-name}.github.io<br>ex: git 登录名称为 Longears00 那么创建的respository就应该为：Longears00.github.io  注意的是：名称一定要一模一样。大小写也要一样</li>
-</ol>
-<p>2.更改hexo项目中的项目_config.yml url<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># URL</span><br><span class="line">## If your site is put in a subdirectory, set url as &apos;http://yoursite.com/child&apos; and root as &apos;/child/&apos;</span><br><span class="line">url: https://Longears00.github.io</span><br><span class="line">root: /</span><br><span class="line">permalink: :year/:month/:day/:title/</span><br><span class="line">permalink_defaults:</span><br></pre></td></tr></table></figure></p>
-<p>这里的url一定要和发布的repository 一致。是访问hexo 博客的地址 </p>
-<p>3.更改hexo项目中的项目_config.yml deploy<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">## Docs: https://hexo.io/docs/deployment.html</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/Longears00/Longears00.github.io</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure></p>
-<p>这里的repo是远程发布的推送地址</p>
-<p>4.运行hexo命令进行发布<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure></p>
-<p>将命令配置到package.json<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&quot;scripts&quot;: &#123;</span><br><span class="line">    &quot;dev&quot;: &quot;hexo server&quot;,</span><br><span class="line">    &quot;deploy&quot;: &quot;hexo clean &amp;&amp; hexo generate &amp;&amp; hexo deploy&quot;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure></p>
-<p>最后输入<a href="https://Longears00.github.io">https://Longears00.github.io</a> <a href="https://Longears00.github.io">Longears00-hexo-blog</a> 就可以看到博客的地址</p>
-
-          
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/09/07/hexo-build-deplogy/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
